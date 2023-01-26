@@ -1,0 +1,8 @@
+Question 1: By printing os.environ, we can print all of the OS's evironment variables for our viewing.
+Question 2: The variable that contains information on the query parameter data is 'QUERY_STRING'
+Question 3: The variable that contains information on the query parameter data is 'HTTP_USER_AGENT'
+Question 4: The HTTP request itself becomes a stdin to the cgi script, so we have access to the POST data by defualt. But we can access it through the cgi.FieldStorage.
+Question 5: The HTTP header syntax to set a cookie from the server is Set-Cookie: key=value, where Set-Cookie is the header and the key=value are their respective attributes of the cookie itself.
+Question 6: The HTTP header syntax the browser uses to send the cookie back is Cookie: {cookie-list} or key=value,...
+Question 7: Cookies allow us to retain user data between sessions. This comes in useful when for instance we want to auto-login returning users, or have their shopping cart stay the same.
+Question 8: https://github.com/MG-2003/cgi-lab
